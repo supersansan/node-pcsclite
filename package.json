@@ -11,7 +11,8 @@
     },
     "dependencies": {
         "bindings": "^1.1.0",
-        "nan": "^2.2.1"
+        "nan": "^2.2.1",
+        "file-uri-to-path": "^1.0.0"
     },
     "devDependencies": {
         "mocha": "~1.11.0",
@@ -22,7 +23,7 @@
         "test": "mocha",
         "install": "node-gyp rebuild"
     },
-    "repository": "https://github.com/santigimeno/node-pcsclite.git",
+    "repository": "https://github.com/supersansan/node-pcsclite.git",
     "keywords": [
       "pcsc",
       "pcsclite",
